@@ -32,7 +32,7 @@ public class PostagemModel {
 	@Size(min=4, max=100)
 	private String texto;
 	
-	@Temporal(TemporalType.TIMESTAMP)//PEGA DATA
+	@Temporal(TemporalType.TIMESTAMP)//PEGA DATA atual
     private Date date = new java.sql.Date(System.currentTimeMillis()); //DATA
 
 
